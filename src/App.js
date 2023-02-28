@@ -4,6 +4,7 @@ import { CssBaseline, ThemeProvider } from "@mui/material";
 import Topbar from "./pages/global/Topbar";
 import Sidebar from "./pages/global/Sidebar";
 import Dashboard from "./pages/Dashboard";
+import Billing from './pages/Billing'
 
 function App() {
   const [theme, colorMode] = useMode()
@@ -19,6 +20,7 @@ function App() {
                  <Topbar />
                    <Routes>
                        <Route path="/dashboard" element={<Dashboard />}/>
+                       <Route path="/billing" element={<Billing />}/>
                    </Routes>
 
             </main>
