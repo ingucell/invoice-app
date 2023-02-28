@@ -1,0 +1,6 @@
+.bg{
+    background: url('./bg.jpg');
+    background-size:cover;
+    object-fit:contain;
+    background-repeat: no-repeat;
+}

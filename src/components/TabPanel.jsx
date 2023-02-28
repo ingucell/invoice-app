@@ -102,7 +102,7 @@ export default function FloatingActionButtonZoom() {
         bgcolor: 'background.paper',
         width: '100%',
         position: 'relative',
-        minHeight: 200,
+        minHeight: 300,
       }}
     >
       <AppBar position="static" color="default">
