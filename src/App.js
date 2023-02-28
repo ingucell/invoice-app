@@ -5,6 +5,7 @@ import Topbar from "./pages/global/Topbar";
 import Sidebar from "./pages/global/Sidebar";
 import Dashboard from "./pages/Dashboard";
 import Billing from './pages/Billing'
+import Profile from './pages/Profile'
 
 function App() {
   const [theme, colorMode] = useMode()
@@ -21,6 +22,7 @@ function App() {
                    <Routes>
                        <Route path="/dashboard" element={<Dashboard />}/>
                        <Route path="/billing" element={<Billing />}/>
+                       <Route path="/profile" element={<Profile />}/>
                    </Routes>
 
             </main>
