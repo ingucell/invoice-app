@@ -9,7 +9,7 @@ function Button({color, value}) {
         style={{
             backgroundColor: color,
             height: '2rem',
-            width: '4rem',
+            width: 'max-content',
             borderRadius: '0.5rem',
             border: 'none',
             cursor: 'pointer'

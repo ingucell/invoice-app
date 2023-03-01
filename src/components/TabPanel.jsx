@@ -13,6 +13,7 @@ import EditIcon from '@mui/icons-material/Edit';
 import UpIcon from '@mui/icons-material/KeyboardArrowUp';
 import Profile from './ProfileItems/Profile'
 import Account from './ProfileItems/Account';
+import Avatar from './ProfileItems/Avatar'
 import { green } from '@mui/material/colors';
 import Box from '@mui/material/Box';
 
@@ -136,7 +137,7 @@ export default function FloatingActionButtonZoom() {
           <Account />
         </TabPanel>
         <TabPanel value={value} index={2} dir={theme.direction}>
-          Item Three
+          <Avatar />
         </TabPanel>
         <TabPanel value={value} index={3} dir={theme.direction}>
           Item Three
