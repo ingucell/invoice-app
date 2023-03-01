@@ -2,16 +2,13 @@ import React from 'react'
 import {Box, Typography} from '@mui/material'
 import TextField from '@mui/material/TextField'
 import Button from '../Button'
-import { orange } from '@mui/material/colors'
 
-function Account() {
+function UserPreference() {
   return (
     <>
     <Box 
       display='flex'
     >
-
-   
        <Box
          display='flex'
          gap='5rem'
@@ -69,7 +66,7 @@ function Account() {
          <TextField
           id="outlined-helperText"
           defaultValue="English"
-          helperText="Enter new user name."
+          helperText="Edit Language"
           style={{
             margin: '0.4rem 0rem'
           }}
@@ -87,7 +84,7 @@ function Account() {
           <TextField
           id="outlined-helperText"
           defaultValue="March 1, 2023 (MMMM D, YYYY)"
-          helperText="Enter new user name."
+          helperText="Edit Date Format"
           style={{
             margin: '0.4rem 0rem'
           }}
@@ -105,7 +102,7 @@ function Account() {
           <TextField
           id="outlined-helperText"
           defaultValue="9:42 PM"
-          helperText="Enter new user name."
+          helperText="Edit Time Format"
           style={{
             margin: '0.4rem 0rem'
           }}
@@ -123,7 +120,7 @@ function Account() {
           <TextField
           id="outlined-helperText"
           defaultValue="Asia/Kolkata"
-          helperText="Enter new user name."
+          helperText="Edit Timezone"
           style={{
             margin: '0.4rem 0rem'
           }}
@@ -151,4 +148,4 @@ function Account() {
   )
 }
 
-export default Account
+export default UserPreference

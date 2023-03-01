@@ -15,6 +15,7 @@ import Profile from './ProfileItems/Profile'
 import Account from './ProfileItems/Account';
 import Avatar from './ProfileItems/Avatar'
 import UserPreference from './ProfileItems/UserPreference'
+import ChangePassword from './ProfileItems/ChangePassword';
 import { green } from '@mui/material/colors';
 import Box from '@mui/material/Box';
 
@@ -144,7 +145,7 @@ export default function FloatingActionButtonZoom() {
           <UserPreference />
         </TabPanel>
         <TabPanel value={value} index={4} dir={theme.direction}>
-          Item Four
+          <ChangePassword />
         </TabPanel>
       </SwipeableViews>
       {/* fabs */}

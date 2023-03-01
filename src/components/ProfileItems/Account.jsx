@@ -88,7 +88,9 @@ function Account() {
            display='flex'
            gap="0.4rem"
          >
-            <Button color={"orange"} value={'Reset'}/> 
+           <Button color={"orange"} value={'Reset'}/> 
+            <Button color={"red"} value={'Cancel'}/> 
+            <Button color={"blue"} value={'Save'}/>  
                  
           </Box>
     
