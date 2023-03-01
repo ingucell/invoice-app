@@ -4,7 +4,7 @@ import TextField from '@mui/material/TextField'
 import Button from '../Button'
 import { orange } from '@mui/material/colors'
 
-function Profile() {
+function Account() {
   return (
     <>
     <Box 
@@ -75,8 +75,7 @@ function Profile() {
            gap="0.4rem"
          >
             <Button color={"orange"} value={'Reset'}/> 
-            <Button color={"red"} value={'Cancel'}/> 
-            <Button color={"blue"} value={'Save'}/>       
+                 
           </Box>
     
        </Box>
@@ -89,4 +88,4 @@ function Profile() {
   )
 }
 
-export default Profile
+export default Account
