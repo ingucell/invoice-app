@@ -11,6 +11,7 @@ import Fab from '@mui/material/Fab';
 import AddIcon from '@mui/icons-material/Add';
 import EditIcon from '@mui/icons-material/Edit';
 import UpIcon from '@mui/icons-material/KeyboardArrowUp';
+import Profile from './ProfileItems/Profile'
 import { green } from '@mui/material/colors';
 import Box from '@mui/material/Box';
 
@@ -128,7 +129,7 @@ export default function FloatingActionButtonZoom() {
         onChangeIndex={handleChangeIndex}
       >
         <TabPanel value={value} index={0} dir={theme.direction}>
-          Item One
+           <Profile />
         </TabPanel>
         <TabPanel value={value} index={1} dir={theme.direction}>
           Item Two
