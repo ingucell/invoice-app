@@ -14,6 +14,7 @@ import UpIcon from '@mui/icons-material/KeyboardArrowUp';
 import Profile from './ProfileItems/Profile'
 import Account from './ProfileItems/Account';
 import Avatar from './ProfileItems/Avatar'
+import UserPreference from './ProfileItems/UserPreference'
 import { green } from '@mui/material/colors';
 import Box from '@mui/material/Box';
 
@@ -140,7 +141,7 @@ export default function FloatingActionButtonZoom() {
           <Avatar />
         </TabPanel>
         <TabPanel value={value} index={3} dir={theme.direction}>
-          Item Three
+          <UserPreference />
         </TabPanel>
         <TabPanel value={value} index={4} dir={theme.direction}>
           Item Four
