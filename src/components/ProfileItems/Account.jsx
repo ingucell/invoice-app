@@ -53,6 +53,7 @@ function Account() {
 
 {/* Right Side */}
        <Box
+    
        >
               <Typography
               fontWeight='bold'
@@ -62,6 +63,19 @@ function Account() {
               <TextField
           id="outlined-helperText"
           defaultValue="Mathias Lawson"
+          helperText="Enter new user name."
+          style={{
+            margin: '0.4rem 0rem'
+          }}
+               />
+             <Typography
+              fontWeight='bold'
+              >
+                Email
+              </Typography>
+<TextField
+          id="outlined-helperText"
+          defaultValue="mathiaslawson70@gmail.com"
           helperText="Enter new user name."
           style={{
             margin: '0.4rem 0rem'
