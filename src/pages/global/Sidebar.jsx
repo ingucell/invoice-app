@@ -108,11 +108,14 @@ const Sidebar = () => {
               selected={selected}
               setSelected={setSelected}
             />
+            <Item
+              title="Profile"
+              to="/profile"
+              icon={<HandymanIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
 
-          
-
-
-                
           </Box>
         </Menu>
       </ProSidebar>
