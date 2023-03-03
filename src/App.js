@@ -6,8 +6,8 @@ import Sidebar from "./pages/global/Sidebar";
 import Dashboard from "./pages/Dashboard";
 import Billing from './pages/Billing'
 import Profile from './pages/Profile'
-import Login from './pages/Auth/Login'
-import Register from './pages/Auth/Register'
+// import Login from './pages/Auth/Login'
+// import Register from './pages/Auth/Register'
 
 function App() {
   const [theme, colorMode] = useMode()
@@ -25,8 +25,8 @@ function App() {
                        <Route path="/dashboard" element={<Dashboard />}/>
                        <Route path="/billing" element={<Billing />}/>
                        <Route path="/profile" element={<Profile />}/>
-                       <Route path="/login" element={<Login />}/>
-                       <Route path="/register" element={<Register />}/>
+                       {/* <Route path="/login" element={<Login />}/>
+                       <Route path="/register" element={<Register />}/> */}
                    </Routes>
 
             </main>
